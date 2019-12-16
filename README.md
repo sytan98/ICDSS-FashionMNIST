@@ -26,8 +26,8 @@ I experimented with a few models:
 
 | Model         | Testing Accuracy | Model Weights |
 | :-----------: |:----------------:|:-------------:|
-| 4layer CNN    | 0.9135           |[]|
-| ResNet        | 0.9099           |[]|
+| 4layer CNN    | 0.9135           |[train_model_4CNN.hdf5](https://drive.google.com/file/d/13tpQiTnfruziTi6pLwhVbL2FItDqTEhL/view?usp=sharing)|
+| ResNet        | 0.9099           |[train_model_resnet.hdf5](https://drive.google.com/file/d/1LpeqzU0ZMjERWQIiWteLSYgMT2069EIo/view?usp=sharing)|
 
 
 For the 4 layer CNN, I used a grid search to find the most optimal training parameters for the model. Unfortunately, keras wrapper for scikit-learn does not allow us to do a grid search with fit_generator. So we need to create a new class that defines a function "fit".
