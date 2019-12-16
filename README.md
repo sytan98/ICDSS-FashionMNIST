@@ -44,9 +44,9 @@ For the 4 layer CNN model, I also tried to extracting feature maps at each layer
 
 ## Requirements
 Choose the latest versions of any of the dependencies below: 
-* pandas 
-* numpy 
-* matplotlib 
-* sklearn 
-* keras 
-* tensorflow 
+* pandas 0.24.2
+* numpy 1.16.2
+* matplotlib 3.0.3
+* sklearn 0.20.3
+* keras 2.3.1
+* tensorflow 2.0.0
